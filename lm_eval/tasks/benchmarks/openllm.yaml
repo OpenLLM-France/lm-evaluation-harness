@@ -11,6 +11,8 @@ task:
     num_fewshot: 0
   - task: mmlu
     num_fewshot: 5
+  - task: mmlu_continuation
+    num_fewshot: 5
   - task: winogrande
     fewshot_split: train
     num_fewshot: 5
