@@ -1,0 +1,35 @@
+group: okapi
+group_alias: Okapi Evaluation
+task:
+  - task: arc_fr
+    num_fewshot: 25
+  - task: m_mmlu_fr
+    num_fewshot: 25
+  - task: hellaswag_fr
+    num_fewshot: 0
+  - task: truthfulqa_fr
+    num_fewshot: 0
+  - task: arc_es
+    num_fewshot: 25
+  - task: m_mmlu_es
+    num_fewshot: 25
+  - task: hellaswag_es
+    num_fewshot: 0
+  - task: truthfulqa_es
+    num_fewshot: 0
+  - task: arc_de
+    num_fewshot: 25
+  - task: m_mmlu_de
+    num_fewshot: 25
+  - task: hellaswag_de
+    num_fewshot: 0
+  - task: truthfulqa_de
+    num_fewshot: 0
+  - task: arc_it
+    num_fewshot: 25
+  - task: m_mmlu_it
+    num_fewshot: 25
+  - task: hellaswag_it
+    num_fewshot: 0
+  - task: truthfulqa_it
+    num_fewshot: 0
