@@ -1,0 +1,7 @@
+group: lucie_french_bench
+group_alias: Lucie French Benckmarks
+task:
+  - task: french_bench_mc
+    num_fewshot: 5
+  - task: french_bench_gen
+    num_fewshot: 5
